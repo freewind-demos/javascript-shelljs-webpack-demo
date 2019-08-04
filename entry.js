@@ -1,3 +1,3 @@
-import User from './user';
+import shell from 'shelljs'
 
-new User('Babel').hello();
+shell.exec('ls')
